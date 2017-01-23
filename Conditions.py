@@ -11,7 +11,7 @@ def minimum_ram_required(memory_required, unit):
     return space_required(memory_required, unit, Memory)
 
 
-def minimum_disk_space(disk_size, unit):
+def minimum_free_disk_space(disk_size, unit):
     return space_required(disk_size, unit, Disk)
 
 
